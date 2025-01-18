@@ -1,0 +1,30 @@
+@media screen and (max-width:576px){
+    
+/* navbar styles */
+
+.header-container,section,main,footer{
+    padding: 0px 20px;
+}
+.navbar{
+    flex-direction: column;
+    gap: 25px;
+}
+.brand-name{
+    font-size: 2.1rem;
+}
+.nav-items li a{
+    font-size: 1rem;
+}
+.banner-text{
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+.banner-content{
+    padding-top: 90px;
+}
+.banner-text h1{
+    font-size: 3.1rem;
+
+}
+}
