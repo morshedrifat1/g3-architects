@@ -1,5 +1,8 @@
-@media screen and (max-width:576px){
-    
+
+/* tablet device responsive */
+
+@media screen and (min-width:576px) and (max-width:992px){
+        
 /* navbar styles */
 
 .header-container,section,main,footer{
@@ -27,4 +30,243 @@
     font-size: 3.1rem;
 
 }
+
+/* feature section open */
+.feature{
+    padding:85px 20px 130px 20px ;
 }
+.feature-container{
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+
+
+
+/* Features list section open */
+.features-container{
+    flex-direction: column;
+    gap: 50px;
+}
+.feature-text h1{
+    font-weight: 700;
+    line-height: 53px;
+    font-size: 2.3rem;
+    color: #131313;
+}
+.features-content img{
+    width: 100%;
+    padding-left: 50px;   
+}
+
+
+.features-card{
+    width: 50%;
+    height: 100px;
+    padding: 45px 42px;
+    position: relative;
+    margin-top: -50px;
+    margin-left: 0px;
+    padding: 30px 25px;
+}
+
+.features-card h4{
+    font-size: 2rem;
+    line-height: 40px;
+}
+
+.features-card p{
+    font-size: 1rem;
+}
+
+/* facts section open  */
+
+.facts-items{
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+    margin-top: 50px;
+    padding: 0px 0px;
+    text-align: center;
+}
+
+.facts-items .facts-item-box h2{
+    font-size: 2rem;
+    line-height: 40px;
+    color: #424242;
+}
+
+.facts-items .facts-item-box p{
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 22px;
+    color: #727272;
+}
+
+/* Sponspor section open */
+.sponsor{
+    margin-top: 130px;
+}
+.sponsor-hading h3{
+    font-size: 2.3rem;
+}
+.sponsor-img{
+    grid-template-columns: repeat(2,1fr);
+    gap: 80px;
+}
+
+/* footer section open */
+
+.footer-container h4{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 35px;
+    text-align: center;
+    color: #424242;
+    padding: 0px 30px;
+}
+}
+
+
+/* mobile device responsive */
+
+@media screen and (max-width:576px){
+    
+    /* navbar styles */
+    
+    .header-container,section,main,footer{
+        padding: 0px 20px;
+    }
+    .navbar{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .brand-name{
+        font-size: 2.1rem;
+    }
+    .nav-items li a{
+        font-size: 1rem;
+    }
+    .banner-text{
+        width: auto;
+        margin: auto;
+        text-align: center;
+    }
+    .banner-content{
+        padding-top: 90px;
+    }
+    .banner-text h1{
+        font-size: 3.1rem;
+    
+    }
+    
+    /* feature section open */
+    .feature{
+        padding:85px 20px 130px 20px ;
+    }
+    .feature-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .feature-img{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 24px;
+    }
+    
+    .feature-img img{
+        width: 100%;
+    }
+    
+    
+    /* Features list section open */
+    .features-container{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .feature-text h1{
+        font-weight: 700;
+        line-height: 53px;
+        font-size: 2.3rem;
+        color: #131313;
+    }
+    .features-content img{
+        width: 100%;
+        padding-left: 50px;   
+    }
+    
+    
+    .features-card{
+        width: 50%;
+        height: 100px;
+        padding: 45px 42px;
+        position: relative;
+        margin-top: -50px;
+        margin-left: 0px;
+        padding: 30px 25px;
+    }
+    
+    .features-card h4{
+        font-size: 2rem;
+        line-height: 40px;
+    }
+    
+    .features-card p{
+        font-size: 1rem;
+    }
+    
+    /* facts section open  */
+    
+    .facts-items{
+        grid-template-columns: repeat(2,1fr);
+        gap:20px;
+        margin-top: 50px;
+        padding: 0px 0px;
+        text-align: center;
+    }
+    
+    .facts-items .facts-item-box h2{
+        font-size: 2rem;
+        line-height: 40px;
+        color: #424242;
+    }
+    
+    .facts-items .facts-item-box p{
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 22px;
+        color: #727272;
+    }
+    
+    /* Sponspor section open */
+    .sponsor{
+        margin-top: 130px;
+    }
+    .sponsor-hading h3{
+        font-size: 2.3rem;
+    }
+    .sponsor-img{
+        grid-template-columns: repeat(2,1fr);
+        gap: 70px;
+    }
+    .sponsor-img img{
+        width: 100%;
+    }
+    /* footer section open */
+    
+    .footer-container h4{
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 35px;
+        text-align: center;
+        color: #424242;
+        padding: 0px 30px;
+    }
+    }
+    
